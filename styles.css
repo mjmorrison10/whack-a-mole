@@ -1,8 +1,39 @@
+body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
 .grid {
 	width: 606px;
 	height: 606px;
 	display: flex;
 	flex-wrap: wrap;
+}
+
+.title {
+	display: flex;
+}
+
+.title h2 {
+	padding: 0 0.25rem;
+}
+
+.reset {
+	margin: 0 0 1rem 0;
+	padding: 0.5rem 2rem;
+	background-color: transparent;
+	border: 1px solid black;
+	border-radius: 1rem;
+	cursor: pointer;
+	font-weight: bold;
+	transition: all 250ms ease;
+}
+
+.reset:hover {
+	background-color: black;
+	color: white;
+
 }
 
 .square {
@@ -11,8 +42,9 @@
 	border: solid black 1px;
 }
 
+
 .mole {
-	background-image: url("mole.jpg");
+	background-image: url("link.png");
 	background-size: cover;
 	cursor: pointer;
 }
